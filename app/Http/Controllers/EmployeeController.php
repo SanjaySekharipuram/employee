@@ -24,7 +24,7 @@ class EmployeeController extends Controller
             3 => 'Other',
         ];
 
-        return view('employee\index', compact('genderOptions'));
+        return view('employee.index', compact('genderOptions'));
     }
 
     public function getEmployees()
